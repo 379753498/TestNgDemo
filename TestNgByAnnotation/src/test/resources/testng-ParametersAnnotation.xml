@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Suite">
+  <parameter name="username" value="Testpro"/>
+  <parameter name="password" value="123456"/>
+  <test name="Parameters">
+  <packages>
+    <package name="com.example.testng.Annotation.Parameters"/>
+  </packages>
+  </test> <!-- TestNgDemo -->
+</suite> <!-- Default Suite -->

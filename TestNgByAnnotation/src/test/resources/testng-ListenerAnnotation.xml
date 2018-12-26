@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listener Suite" >
+  <!--如果类上加了注解 配置文件就不需要写 否则会重复添加 如果没添加就可以在配置文件中增加-->
+  <!--<listeners>-->
+    <!--<listener class-name="MyITestNGListenerImp"/>-->
+  <!--</listeners>-->
+  <test name="Listener" >
+    <packages>
+      <package name="com.example.testng.Annotation.Listener"/>
+    </packages>
+  </test> <!-- TestNgDemo -->
+</suite> <!-- Default Suite -->

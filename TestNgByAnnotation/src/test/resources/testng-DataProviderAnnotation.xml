@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataProviderAnnotation">
+
+  <test name="testng-DataProviderAnnotation">
+    <!--使用packages定义需要执行的包名集合-->
+    <!--<packages>-->
+     <!--<package name="com.example.testng.Annotation.DataProvider"/>-->
+    <!--</packages>-->
+    <!--使用classes定义需要执行的类名集合 -->
+    <classes>
+      <class name="com.example.testng.Annotation.DataProvider.DataproviderAnnotationTest"/>
+    </classes>
+  </test> <!-- TestNgDemo -->
+</suite> <!-- Default Suite -->

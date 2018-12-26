@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="TestNgDemo">
+    <classes>
+      <class name="com.example.testng.HelloWorld.TestNgHelloWorld"/>
+    </classes>
+  </test> <!-- TestNgDemo -->
+</suite> <!-- Default Suite -->
